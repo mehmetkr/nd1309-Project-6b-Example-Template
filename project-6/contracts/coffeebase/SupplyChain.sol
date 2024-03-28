@@ -330,7 +330,7 @@ contract SupplyChain is Ownable, ConsumerRole, RetailerRole, FarmerRole, Distrib
 
     // Emit the appropriate event
 
-    emit Received(upc);
+    emit Received(_upc);
     
   }
 
